@@ -47,10 +47,15 @@ $("img.responsive").responsive({
 ```
 
 ```lgSize, mdSize, smSize, xsSize``` Define the sizes, default as bootstrap 3
+
 ```lgName, mdName, smName, xsName``` Define the attribute name.
+
 ```applyAbove``` Search for nearest above size if current screen size is not supported.
+
 ```applyBelow``` Search for nearest below size if current screen size is not supported.
+
 ```applyDefault``` Use default image if it does not find any approciate screen size.
+
 
 ## Additional
 You should style image to make it responsive for every size of screen
