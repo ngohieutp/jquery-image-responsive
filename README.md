@@ -1,10 +1,10 @@
 # jquery-image-responsive
 Using javascript to detect window size then choose the appropriate image
 
-# Requirements
+## Requirements
 You will need JQuery to select images that need to responsive
 
-# How to use
+## How to use
 
 Download the library and put it into you web
 ```<script src="image-responsive.js"></script>```
@@ -26,7 +26,7 @@ $(function () {
 });
 ```
 
-# Configuration
+## Configuration
 You can define the size
 
 ```
@@ -45,3 +45,13 @@ $("img.responsive").responsive({
     applyDefault: true
 });
 ```
+
+```lgSize, mdSize, smSize, xsSize``` Define the sizes, default as bootstrap 3
+```lgName, mdName, smName, xsName``` Define the attribute name.
+```applyAbove``` Search for nearest above size if current screen size is not supported.
+```applyBelow``` Search for nearest below size if current screen size is not supported.
+```applyDefault``` Use default image if it does not find any approciate screen size.
+
+## Additional
+You should style image to make it responsive for every size of screen
+```max-width: 100%```
