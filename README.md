@@ -1,5 +1,6 @@
 # jquery-image-responsive
 Using javascript to detect window size then choose the appropriate image
+It is very small simple libary, so if there is any improvement, please make it better.
 
 ## Requirements
 You will need JQuery to select images that need to responsive
