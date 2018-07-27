@@ -45,6 +45,8 @@
                     return sizes[i];
                 }
             }
+
+            return sizes[sizes.length-1];
         }
 
         //Find the smallest size that larger than detected size, then apply the src
