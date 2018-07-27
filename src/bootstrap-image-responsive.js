@@ -90,7 +90,7 @@
                     || (settings.applyDefault && self.applyDefault(elm));
                 }
             } else {
-                $(elm).attr("src", $(elm).attr(settings.defaultName));
+                settings.applyDefault && self.applyDefault(elm);
             }
         }
 
