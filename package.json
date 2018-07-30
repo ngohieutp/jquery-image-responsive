@@ -1,0 +1,27 @@
+{
+  "name": "jquery-image-responsive",
+  "version": "0.0.1",
+  "description": "Using javascript to detect window size then choose the appropriate image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngohieutp/jquery-image-responsive.git"
+  },
+  "keywords": [
+    "image",
+    "responsive"
+  ],
+  "author": "ngohieutp",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ngohieutp/jquery-image-responsive/issues"
+  },
+  "homepage": "https://ngohieutp.github.io/jquery-image-responsive/",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-uglify": "^3.4.0"
+  }
+}
