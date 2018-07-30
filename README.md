@@ -1,4 +1,4 @@
-# jquery-image-responsive ![CircleCI Status](https://circleci.com/ngohieutp/jquery-image-responsive?style=shield&circle-token=:circle-token)
+# jquery-image-responsive ![CircleCI Status](https://circleci.com/gh/ngohieutp/jquery-image-responsive.png?circle-token=f4ade535a231b891706050b207bb85ef1fab1c88)
 Using javascript to detect window size then choose the appropriate image
 
 It is very small simple libary, so if there is any improvement, please make it better.
